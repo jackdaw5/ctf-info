@@ -40,16 +40,15 @@ https://github.com/TheGreyCore/CTFcheatsheet
 
 # Commands
 ### Linux Basic
-| Term                        | command                                                                                                       |
-|:----------------------------|:-----------------------------------------------------------------------------------------------------------------|
-|download zip| ```curl http://shared.target05/backup.zip --output backup.zip```|
-| text finding:|:----------------------------|
-| - recursive aka all folders|    ```grep -r "search_term" /path/to/directory```|
-| - case insensetive (aka ignore case)| ```grep -i "search_term" filename.txt```|
-|Print lines containing a specific pattern| ```awk '/error/' log.txt```|
-|finding files|  ```find /path/to/directory -name "filename"```|
-|binary files|For binary files or unknown encodings, use strings and grep. ```strings binaryfile | grep "search_term"```|
-|compressed files| ```zgrep "search_term" file.gz```|
+| Term                                 | Command                                           |
+|:------------------------------------|:-------------------------------------------------|
+| download zip                          | `curl http://shared.target05/backup.zip --output backup.zip` |
+| text finding - recursive (all folders)| `grep -r "search_term" /path/to/directory`     |
+| text finding - case insensitive       | `grep -i "search_term" filename.txt`           |
+| print lines containing a pattern      | `awk '/error/' log.txt`                         |
+| finding files                         | `find /path/to/directory -name "filename"`     |
+| binary files                           | `strings binaryfile | grep "search_term"`      |
+| compressed files                       | `zgrep "search_term" file.gz`                  |
 
 ### Search operators (DuckDuckGo)
 
