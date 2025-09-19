@@ -1,4 +1,4 @@
-## CTF-usefull info
+# CTF-usefull info
 
 > **Disclaimer**  
 > All information is provided "as is" without any guarantees of completeness, accuracy, or reliability.  
@@ -6,8 +6,8 @@
 > Use of the information is at your own risk. The author shall not be held liable for any damages arising from its use.
 > Author also have dyslexia and might struggle with some spelling, please be mindfull 
 
-## Links
-# AI
+# Links
+### AI
 https://chatgpt.com
 https://chat.deepseek.com/
 
@@ -15,11 +15,11 @@ https://chat.deepseek.com/
 
 https://www.promptfoo.dev/blog/how-to-jailbreak-llms/
 
-# Decoders
+### Decoders
 - https://dencode.com/string
 (seems like have all/most)
 
-# Images
+### Images
 - Reverse search
 https://tineye.com/
 - Meta Data 
@@ -31,15 +31,15 @@ https://www.georgeom.net/StegOnline/upload
 https://aperisolve.fr/ (also accepts vidios)
 
 
-# Info search mega link
+### Info search mega link
 https://github.com/TCM-Course-Resources/Open-Source-Intellingence-Resources?tab=readme-ov-file
 
-# Old cheatsheets
+### Old cheatsheets
 https://github.com/jackdaw5/CTF-cheat-sheet
 https://github.com/TheGreyCore/CTFcheatsheet
 
-## Commands
-# Linux Basic
+# Commands
+### Linux Basic
 
 - download zip
 ```curl http://shared.target05/backup.zip --output backup.zip```
@@ -64,7 +64,7 @@ For binary files or unknown encodings, use strings and grep.
 - compressed files
 ```zgrep "search_term" file.gz```
 
-# Search operators (DuckDuckGo)
+### Search operators (DuckDuckGo)
 
 | Term                        | Effect                                                                                                           |
 |:----------------------------|:-----------------------------------------------------------------------------------------------------------------|
