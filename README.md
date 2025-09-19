@@ -47,7 +47,7 @@ https://github.com/TheGreyCore/CTFcheatsheet
 | text finding - case insensitive       | `grep -i "search_term" filename.txt`           |
 | print lines containing a pattern      | `awk '/error/' log.txt`                         |
 | finding files                         | `find /path/to/directory -name "filename"`     |
-| binary files                           | `strings binaryfile | grep "search_term"`      |
+| binary files                           | `strings binaryfile \| grep "search_term"`      |
 | compressed files                       | `zgrep "search_term" file.gz`                  |
 
 ### Search operators (DuckDuckGo)
