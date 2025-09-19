@@ -45,10 +45,9 @@ https://github.com/TheGreyCore/CTFcheatsheet
 
 |download zip| ```curl http://shared.target05/backup.zip --output backup.zip```|
 
-- text finding:
-   | - recursive aka all folders|    ```grep -r "search_term" /path/to/directory```|
-
-    | case insensetive (aka ignore case)| ```grep -i "search_term" filename.txt```|
+| text finding:|                                                          |
+| - recursive aka all folders|    ```grep -r "search_term" /path/to/directory```|
+| case insensetive (aka ignore case)| ```grep -i "search_term" filename.txt```|
 |Print lines containing a specific pattern| ```awk '/error/' log.txt```|
 |finding files|  ```find /path/to/directory -name "filename"```|
 |binary files|For binary files or unknown encodings, use strings and grep. ```strings binaryfile | grep "search_term"```|
